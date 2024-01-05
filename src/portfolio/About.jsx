@@ -10,11 +10,9 @@ const About = () => {
                 </p>
             </div>
             <p className='text-lg'>
-                As a MERN Stack Developer, I bring a focused skill set to the table, 
-                combining technical proficiency with a commitment to delivering impactful web solutions. 
-                My expertise in HTML, CSS, JavaScript, React.js, Express.js, Node.js, MongoDB, 
-                Tailwind CSS, and GitHub positions me as a valuable asset for any development 
-                team seeking to create cutting-edge web applications.
+            I am a skilled MERN Stack Developer with strong expertise in React JS, Express JS, Node JS and 
+            MongoDB. I have an outstanding proven track record of designing an innovative, dynamic, fully 
+            responsive and pixel-perfect web applications with server side rendering connected to database. 
             </p>
         </div>
     </div>
