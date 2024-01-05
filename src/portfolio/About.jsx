@@ -9,10 +9,10 @@ const About = () => {
                     About
                 </p>
             </div>
-            <p className='text-lg'>
+            <p className='text-lg text-justify'>
             I am a skilled MERN Stack Developer with strong expertise in React JS, Express JS, Node JS and 
             MongoDB. I have an outstanding proven track record of designing an innovative, dynamic, fully 
-            responsive and pixel-perfect web applications with server side rendering connected to database. 
+            responsive and pixel-perfect web applications with server side rendering connected to database.
             </p>
         </div>
     </div>
