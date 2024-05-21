@@ -26,7 +26,6 @@
   padding-top: 10px;
   z-index: 999;
   padding-left: 50px;
-  padding-right: 50px;
   -webkit-backdrop-filter: blur(7px) brightness(90%);
   backdrop-filter: blur(7px) brightness(90%);
   background-color: rgba(255, 255, 255, 0.4);
@@ -49,9 +48,9 @@
   color: #ff075b !important;
 }
 .n-right {
-  flex: 1;
-  align-items: center;
-  justify-content: flex-end;
+  flex: -10;
+  align-items: right;
+  justify-content: right;
   font-weight: 400;
 }
 .n-list {

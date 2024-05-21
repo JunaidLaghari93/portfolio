@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 import "./Intro.css";
 import Typewriter from "typewriter-effect";
-import { RiFacebookFill, RiGithubFill, RiLinkedinFill } from "react-icons/ri";
 
 const Intro = () => {
   const imgref = useRef();
@@ -98,43 +97,6 @@ const Intro = () => {
           }}
           alt=""
         />
-      </div>
-
-      <div className="header-social">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="header-social-icon">
-                <ul>
-                  <li>
-                    <a
-                      title="Facebook | Junaid Rajput"
-                      href="https://facebook.com/ranajunaidhashim"
-                    >
-                      <RiFacebookFill />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      title="GitHub | Rana Junaid Hashim"
-                      href="https://github.com/RanaJunaidHashim"
-                    >
-                      <RiGithubFill />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      title="LinkedIn | Junaid Rana"
-                      href="https://www.linkedin.com/in/junaid-rana-40917b141/"
-                    >
-                      <RiLinkedinFill />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );

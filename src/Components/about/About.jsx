@@ -26,14 +26,14 @@ const About = () => {
         </span>
 
         <Ripples during={1500} color={"rgba(255,255,255,0.5)"}>
-          <a
-            href="https://drive.google.com/uc?export=download&id=1fng9xsTsiFiLMBUynx-t1AFgISqbDfLU"
-            className="a-abtn"
-            style={{ textDecoration: "none" }}
-            download
+        <a
+          href="/src/Components/about/Junaid%20Laghari's%20Resume.pdf"
+          className="a-abtn"
+          style={{ textDecoration: "none" }}
+          download
           >
-            <button className="a-btn">Download CV</button>
-          </a>
+          <button className="a-btn">Download Resume</button>
+        </a>
         </Ripples>
       </motion.div>
 

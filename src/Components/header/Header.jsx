@@ -66,26 +66,6 @@ export const HeaderPhone = ({ menuOpen, setMenuOpen }) => {
           <li>
             <Link
               onClick={() => setMenuOpen(false)}
-              activeClass="active"
-              to="portfolio"
-              spy={true}
-            >
-              Projects
-            </Link>
-          </li>
-          <li>
-            <Link
-              onClick={() => setMenuOpen(false)}
-              activeClass="active"
-              to="testimonial"
-              spy={true}
-            >
-              Testimonials
-            </Link>
-          </li>
-          <li>
-            <Link
-              onClick={() => setMenuOpen(false)}
               to="contact"
               activeClass="active"
               spy={true}
@@ -128,16 +108,6 @@ const NavContent = ({ menuOpen, setMenuOpen, handleClick }) => (
             <li>
               <Link activeClass="active" to="services" spy={true}>
                 Services
-              </Link>
-            </li>
-            <li>
-              <Link activeClass="active" to="portfolio" spy={true}>
-                Projects
-              </Link>
-            </li>
-            <li>
-              <Link activeClass="active" to="testimonial" spy={true}>
-                Testimonials
               </Link>
             </li>
             <li>
